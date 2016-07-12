@@ -2,7 +2,7 @@ var app = angular.module('olympicPicker', []);
 
 app.controller('MainController', function($scope, $http) {
 
-  $scope.test = "Hello Olympians!";
+  $scope.test = "Find. Your. Olympians!";
 
   $scope.badmintonner = '';
   $scope.gymnast = '';

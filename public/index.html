@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="olympicPicker">
+  <head>
+    <meta charset="utf-8">
+    <title>Olympian Picker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="vendor/angular.min.js" charset="utf-8" type="text/javascript"></script>
+    <script src="client.js"></script>
+  </head>
+  <body ng-controller="MainController">
+    <h1>{{test}}</h1>
+    <button ng-click="genRanOlympians()">Generate</button>
+    <ul>
+      <li>BADmintonner: {{badmintonner}}</li>
+      <li>Women's Gymnast: {{gymnast}}</li>
+      <li>Table Tenniser: {{tableTennisian}}</li>
+      <li>Tae Kwon Doer: {{taeKwonDoer}}</li>
+      <li>Synchronized Swimmer: {{syncSwimmer}}</li>
+    </ul>
+
+  </body>
+</html>

@@ -2,9 +2,16 @@ header {
   height: 300px;
 }
 
-#gif1, #gif2 {
+#gif1, #gif2, #gif3, #gif4 {
   float: left;
 }
+
+#stars {
+  display: block;
+  margin: auto;
+}
+
+
 
 
 h1 {
